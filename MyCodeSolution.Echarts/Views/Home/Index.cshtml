@@ -1,0 +1,192 @@
+﻿@{
+    Layout = null;
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/Style/bootstrap.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="~/Content/Style/main.css" rel="stylesheet" />
+    <title>ECharts Index</title>
+</head>
+<body>
+    <div id="left-chart-nav">
+        <ul>
+            <li>
+                <a class="left-chart-nav-link" id="left-chart-nav-map" href="#chart-type-map">
+                    <div class="chart-icon"></div><div class="chart-name">地图</div>
+                </a>
+            </li>
+            <li>
+                <a class="left-chart-nav-link" id="left-chart-nav-bar" href="#chart-type-bar">
+                    <div class="chart-icon"></div><div class="chart-name">柱状图</div>
+                </a>
+            </li>
+            <li>
+                <a class="left-chart-nav-link" id="left-chart-nav-pie" href="#chart-type-pie">
+                    <div class="chart-icon"></div><div class="chart-name">饼状图</div>
+                </a>
+            </li>
+            <li>
+                <a class="left-chart-nav-link" id="left-chart-nav-radar" href="#chart-type-radar">
+                    <div class="chart-icon"></div><div class="chart-name">雷达图</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="explore-container" style="padding-top:0px;">
+        <div class="chart-list-panel">
+            <h3 class="chart-type-head" id="chart-type-map">地图<span>Map</span></h3>
+            <div class="row" id="chart-row-bar">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china/">
+                            <h4 class="chart-title">地图下钻</h4>
+                            <img class="chart-area" src="~/Content/Images/china.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china1/">
+                            <h4 class="chart-title">地图散点</h4>
+                            <img class="chart-area" src="~/Content/Images/china1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china2/">
+                            <h4 class="chart-title">全国城市</h4>
+                            <img class="chart-area" src="~/Content/Images/china2.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china3/">
+                            <h4 class="chart-title">全国城市</h4>
+                            <img class="chart-area" src="~/Content/Images/china3.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china4/">
+                            <h4 class="chart-title">全国城市</h4>
+                            <img class="chart-area" src="~/Content/Images/china4.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china5/">
+                            <h4 class="chart-title">全国城市</h4>
+                            <img class="chart-area" src="~/Content/Images/china5.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/map/china6/">
+                            <h4 class="chart-title">全国城市</h4>
+                            <img class="chart-area" src="~/Content/Images/china6.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="chart-type-head" id="chart-type-bar">柱状图<span>Bar</span></h3>
+            <div class="row" id="chart-row-pie">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/bar/bar1/">
+                            <h4 class="chart-title">折现柱状对比图</h4>
+                            <img class="chart-area" src="~/Content/Images/bar1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/bar/bar2/">
+                            <h4 class="chart-title">折现柱状堆叠图</h4>
+                            <img class="chart-area" src="~/Content/Images/bar2.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/bar/bar3/">
+                            <h4 class="chart-title">单色横向柱状图</h4>
+                            <img class="chart-area" src="~/Content/Images/bar3.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/bar/bar4/">
+                            <h4 class="chart-title">彩色横向柱状图</h4>
+                            <img class="chart-area" src="~/Content/Images/bar4.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="chart-type-head" id="chart-type-pid">饼状图<span>Pie</span></h3>
+            <div class="row" id="chart-row-pie">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/pie/pie1/">
+                            <h4 class="chart-title">环形图1</h4>
+                            <img class="chart-area" src="~/Content/Images/pie1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/pie/pie2/">
+                            <h4 class="chart-title">环形图2</h4>
+                            <img class="chart-area" src="~/Content/Images/pie2.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/pie/pie3/">
+                            <h4 class="chart-title">环形图3</h4>
+                            <img class="chart-area" src="~/Content/Images/pie3.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/pie/pie4/">
+                            <h4 class="chart-title">环形图4</h4>
+                            <img class="chart-area" src="~/Content/Images/pie4.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="chart-type-head" id="chart-type-pid">雷达图<span>Radar</span></h3>
+            <div class="row" id="chart-row-pie">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="chart">
+                        <a target="_blank" class="chart-link" href="/radar/radar1/">
+                            <h4 class="chart-title">基础雷达图</h4>
+                            <img class="chart-area" src="~/Content/Images/radar1.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Content/Scripts/bootstrap.js"></script>
+</body>
+</html>

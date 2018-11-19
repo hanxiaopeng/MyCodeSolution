@@ -1,0 +1,6 @@
+D:\调研\MyCodeSolution\MyCodeSolution\Common\MyCodeSolution.CommonClassLibrary\bin\Debug\MyCodeSolution.CommonClassLibrary.dll
+D:\调研\MyCodeSolution\MyCodeSolution\Common\MyCodeSolution.CommonClassLibrary\bin\Debug\MyCodeSolution.CommonClassLibrary.pdb
+D:\调研\MyCodeSolution\MyCodeSolution\Common\MyCodeSolution.CommonClassLibrary\obj\Debug\MyCodeSolution.CommonClassLibrary.csproj.CoreCompileInputs.cache
+D:\调研\MyCodeSolution\MyCodeSolution\Common\MyCodeSolution.CommonClassLibrary\obj\Debug\MyCodeSolution.CommonClassLibrary.dll
+D:\调研\MyCodeSolution\MyCodeSolution\Common\MyCodeSolution.CommonClassLibrary\obj\Debug\MyCodeSolution.CommonClassLibrary.pdb
+D:\调研\MyCodeSolution\MyCodeSolution\Common\MyCodeSolution.CommonClassLibrary\obj\Debug\MyCodeSolution.CommonClassLibrary.csprojResolveAssemblyReference.cache
